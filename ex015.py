@@ -1,9 +1,4 @@
-#desafio015
+#desafio014
 
-print('='*12, end='\n')
-print('Aluguel de Carros')
-print('='*12, end='\n')
-dist = float(input("Qual o total de Km percorridos?"))
-dias = int(input('Total de dias em que esteve alugado o veículo?'))
-
-print('O preço total a pagar é de R${:.2f} reais.'.format((dias*60+dist*0.15)))
+temperatura = float(input('Informe a temperatura em graus celsius (ºC): '))
+print('A temperatura de {}ºC equivale a {}ºF.'.format(temperatura, (temperatura*9/5+32)))

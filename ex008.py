@@ -1,4 +1,5 @@
-#desafio008
+#desafio007
 
-m = float(input('Digite uma distância em metros: '))
-print('A medida de {}m corresponde a:\n{}km,\n{}hm,\n{}dam,\n{:.0f}dm,\n{:.0f}cm,\n{:.0f}mm.'.format(m, (m/1000), (m/100), (m/10), (m*10), (m*100), (m*1000)))
+n1 = float(input('Digite a primeira nota do aluno: '))
+n2 = float(input('Digite a segunda nota do aluno: '))
+print('A média aritmética das notas {} e {} do aluno é igual a {:.1f}.'.format(n1, n2, ((n1+n2)/2)))

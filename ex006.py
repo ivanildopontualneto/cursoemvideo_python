@@ -1,5 +1,4 @@
-#desafio006
+#desafio005
 
 n = int(input('Digite um número: '))
-print('O dobro de {} vale {},\no triplo de {} vale {}\ne a raiz quadrada de {} é igual {:.2f}.'.format(n, (n*2), n, (n*3), n, (n**(1/2))))
-#ou também pode ser pow(n,(1/2))
+print('Analisando o número {}, o seu antecessor é {} e o seu sucessor é {}.'.format(n, (n-1), (n+1)))

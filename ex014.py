@@ -1,4 +1,4 @@
-#desafio014
+#desafio013
 
-temperatura = float(input('Informe a temperatura em graus celsius (ºC): '))
-print('A temperatura de {}ºC equivale a {}ºF.'.format(temperatura, (temperatura*9/5+32)))
+salario = float(input('Digite o salário do funcionário: R$'))
+print('O novo salário do funcionário com 15% de aumento é de R${:.2f}'.format(salario+(salario*0.15)))

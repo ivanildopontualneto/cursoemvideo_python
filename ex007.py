@@ -1,5 +1,5 @@
-#desafio007
+#desafio006
 
-n1 = float(input('Digite a primeira nota do aluno: '))
-n2 = float(input('Digite a segunda nota do aluno: '))
-print('A média aritmética das notas {} e {} do aluno é igual a {:.1f}.'.format(n1, n2, ((n1+n2)/2)))
+n = int(input('Digite um número: '))
+print('O dobro de {} vale {},\no triplo de {} vale {}\ne a raiz quadrada de {} é igual {:.2f}.'.format(n, (n*2), n, (n*3), n, (n**(1/2))))
+#ou também pode ser pow(n,(1/2))
